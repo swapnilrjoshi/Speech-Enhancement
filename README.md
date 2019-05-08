@@ -3,7 +3,7 @@
 ## Usage
 
 Successful response will have a following form
-'''json
+'''
 {
 	"results": [ 
 		{'name': 'name of the repository within an organization with higest stars', 'stars': number of stars for that repository}
@@ -16,7 +16,7 @@ Successful response will have a following form
 If an organization have less than 3 repositories then the response will that many repositories sorted based on number of stars accordingly
 
 Unsuccessful response will have the following form
-'''json
+'''
 {
 	"message": 'Error message'
 }
@@ -31,7 +31,7 @@ Unsuccessful response will have the following form
 - 200 OK
 - 429 TOO MANY REQUESTS
 
-'''json
+'''
 {
 	'org': 'github-organization-id'
 }
